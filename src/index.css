@@ -1,0 +1,621 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container-fluid{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #d3d3d9e6;
+    position: relative;
+}
+.navbar{
+    width: 100%;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 2%;
+    background-image:url(http://getwallpapers.com/wallpaper/full/7/6/e/504624.jpg);
+    background-position: center;
+    background-size: cover;
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+}
+.navbar img{
+    width: 120px;
+}
+.navbar ul{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: 550;
+}
+.Hero-section{
+    width: 100%;
+    height: 634px;
+    margin-top: 0px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 634px;
+    border-radius: 0px;
+    /* 8px both the */
+    filter: blur(20px);  
+    -webkit-filter: blur(0px);
+}
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 66%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50%;
+}
+.clickbtn{
+    width: 140px;
+    height: 35px;
+    background-color:bisque;
+    border: 1px solid yellow;
+    font-size: 16px;
+    font-weight: 550;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px 2px gold;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.clickbtn:hover{
+    background-color: rgba(240, 248, 255, 0.881);
+    box-shadow: 1px 1px 3px 2px gold;
+}
+
+.category{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-inline: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.category h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+.category h2 span{
+    color: red;
+}
+.category p{
+    font-size: 19px;
+    font-weight: 700;
+}
+.mind{
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 70px;
+    /* padding-left: 2%; */
+    text-align: center;
+}
+
+.frame{
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-inline: 1%;
+    overflow: hidden;
+}
+.circle1{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.g2wIn2IxsmADkyyd7boEpQHaHT&pid=Api&P=0&h=220);
+    background-position: center;
+    background-size: cover;
+    margin-top: 15px;
+}
+.circle2{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.Cp381UPBC7sbyzinV0rnxgHaHa&pid=Api&P=0&h=220);
+    background-position: center;
+    background-size: cover;
+    margin-top: 15px;
+}
+.circle3{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.RMc-fa7GsykvQV-Z5cQdsQHaHa&pid=Api&P=0&h=220);
+    background-position: center;
+    background-size: cover;
+    margin-top: 15px;
+}
+.circle4{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.fanZPy9rtueJs2yW6jQDqgHaHa&pid=Api&P=0&h=220);
+    background-position: center;
+    background-size: cover;
+    margin-top: 15px;
+}
+.circle5{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.R-AOBfjWUoWDICzZbhiZKgHaFj&pid=Api&P=0&h=220);
+    background-position: center;
+    background-size: cover;
+    margin-top: 15px;
+}
+.circle6{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 3px solid white;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.O3l5jxZ3dl9NFFtUWp58jwHaFj&pid=Api&P=0&h=220);
+    background-position: center;
+    background-size: cover;
+    margin-top: 15px;
+}
+
+/* Burger page */
+
+.burger-container{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    padding-block: 15px;
+    flex-wrap: wrap;
+    padding-inline: 10%;
+}
+.headingBurger{
+    text-align: center;
+    padding-top: 45px;
+    font-size: 30px;
+    font-weight: 700;
+    color:teal;
+}
+.card{
+    width: 350px;
+    height: 420px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+.img-part{
+    width: 100%;
+    height: 235px;
+}
+.img-part img{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px 25px 0px 0px;
+}
+.text-part{
+    width: 100%;
+    height: 185px;
+    padding-left: 15px;
+}
+.text-part h3{
+    font-size: 22px;
+    font-weight: 650;
+    padding-top: 10px;
+}
+.text-part h2{
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 8px;
+}
+.text-part span{
+    width: 55%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.text-part span h5{
+    font-size: 16px;
+    font-weight: 650;
+    padding-left: 10px;
+}
+.text-part span i{
+    color: goldenrod;
+}
+.text-part button{
+    width:80px;
+    height: 30px;
+    border-radius: 5px;
+    background:transparent;
+    color: goldenrod;
+    font-weight: 600;
+    border: 1px solid grey;
+    margin-top: 7px;
+}
+.text-part button:hover{
+    background-color:#e3dede;
+    color:teal;
+    border: 1px solid slateblue;
+}
+
+
+/* Footer page */
+
+.footer{
+    width: 100%;
+    height: auto;
+    border: 1px solid brown;
+    margin-top: 90px;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    padding-block: 40px;
+    padding-inline: 1%;
+    background-color: #02060C;
+    flex-wrap: wrap;
+}
+.footer ul{
+    width: 26%;
+    height: auto;
+    list-style: none;
+}
+.footer ul li{
+    padding-top: 10px;
+}
+.footer ul li h2{
+    color: white;
+    font-size: 22px;
+}
+.footer ul li a{
+    color: grey;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 550;
+}
+.footer img{
+    width: 130px;
+}
+
+/* Menu Page */
+
+.menu-cart{
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+.box{
+    width: 80%;
+    height: auto;
+    padding-block: 60px;
+    border-radius: 20px;
+    background-image: url(https://images.wallpaperscraft.com/image/single/blur_drops_glass_167284_1280x720.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box h2{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 600;
+    color: goldenrod;
+}
+.box ul{
+    width: 100%;
+    height: auto;
+    list-style: none;
+    padding-top: 50px;
+}
+.box ul li span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10%;
+}
+.box ul li span a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 550;
+    color: greenyellow;
+}
+.box ul li span p{
+    font-size: 20px;
+    color: snow;
+    font-weight: 550;
+}
+
+/* About Page */
+
+.about-cart{
+    width: 100%;
+    min-height: 89vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block{
+    width: 100%;
+    height: 89vh;
+    border: 2px solid rgb(65, 65, 57);
+    display: flex;
+}
+.left-part{
+    width: 100%;
+    height: auto;
+    background-image: url(https://png.pngtree.com/back_origin_pic/03/91/31/216a8c258305188af56217c3b58b99c5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.right-part{
+    width: 65%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.right-part h1{
+    font-size: 45px;
+    font-weight: 550;
+    color:#ad3f3f;
+    padding-top: 20px;
+}
+.right-part h1:hover{
+    text-decoration:underline;
+}
+.right-part p{
+    font-size: 21px;
+    font-weight: 700;
+    padding-top: 80px;
+    color: #ad3f3f;
+    line-height: 36px;
+}
+
+
+/* Contact Page */
+
+.contact-cart{
+    width: 100%;
+    min-height:89vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-block{
+    width: 90%;
+    height: 505px;
+    border: 1px solid red;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url(https://st2.depositphotos.com/1998651/6015/v/450/depositphotos_60150171-stock-illustration-glass-frame-on-a-wooden.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.contact-block span h1{
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 35px;
+}
+.contact-block span p{
+    font-size: 18px;
+}
+.contact-block span h6{
+    font-size: 18px;
+}
+.main{
+    width: 100%;
+    height: auto;
+    padding-inline: 6%;
+    padding-block: 30px;
+}
+.cart-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.cart-card{
+    width: 570px;
+    height: 200px;
+    border-radius: 25px;
+    margin-top: 20px;
+    display: flex;
+}
+.img-part1{
+    width: 55%;
+    height: 250px;
+}
+.img-part1 img{
+    width: 100%;
+    height: 200px;
+    border-radius: 25px 0px 0px 25px;
+}
+#carttext{
+    width: 45%;
+    height: 200px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.totalBill{
+    width: 90%;
+    height: 200px;
+    margin-top: 70px;
+    margin-left: 5%;
+    border-radius: 15px;
+    background-color: rgba(248, 232, 232, 0.929);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.totalBill h2{
+    font-size: 26px;
+}
+.totalBill button{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: aqua;
+    font-size: 18px;
+    font-weight: 550;
+    margin-top: 25px;
+}
+#carttext span{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.length{
+    font-size: 30px;
+    text-align: center;
+    line-height: 70px;
+    padding-top: 16%;
+}
+.billing-cart{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.billing-cart h2{
+    padding-top: 50px;
+}
+.billform{
+    width: 500px;
+    height: auto;
+    margin-top: 60px;
+}
+
+@media (max-width:768px) {
+    .container-fluid{
+        width: 100%;
+        height: auto;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-inline: 5%;
+    }
+    .navbar ul{
+        width: 20%;
+        justify-content: end;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .navbar ul li:first-child{
+        display: none;
+    }
+    .navbar ul li:nth-child(2){
+        display: none;
+    }
+    .navbar ul li:nth-child(3){
+        display: none;
+    }
+    .navbar ul li:nth-child(4){
+        display: none;
+    }
+    .navbar img{
+        width: 150px;
+    }
+    .bg-text{
+        width: 95%;
+        height: 180px;
+    }
+    .category{
+        justify-content: center;
+    }
+    .category h2{
+        text-align: center;
+    }
+    .category p{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .category h2 br {
+      display: none;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+        justify-content: start;
+        padding-inline: 3%;
+    }
+    .footer ul{
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+    .footer img{
+        width: 150px;
+        padding-left: 27px;
+    }
+    .footer ul li a{
+        font-size: 18px;
+    }
+    .burger-container{
+        width: 100%;
+        height: auto;
+        padding-inline: 7%;
+    }
+    .card{
+        width: 100%;
+        height: 455px;
+    }
+    .img-part{
+        width: 100%;
+        height: 260px;
+    }
+    .text-part span{
+        width: 55%;
+    }
+}
