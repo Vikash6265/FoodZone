@@ -515,8 +515,12 @@
 .length{
     font-size: 30px;
     text-align: center;
-    line-height: 70px;
-    padding-top: 16%;
+    line-height: 65px;
+    padding-top: 6%;
+}
+.length img{
+    width: 290px;
+    padding-top: 40px;
 }
 .billing-cart{
     width: 100%;

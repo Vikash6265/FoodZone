@@ -13,7 +13,7 @@ const CartPage = () => {
 
   if(cartItems.length === 0)
     {
-      return <h2 className='length'>Your Cart is Empty ! <br /> Please Add Your Favourite Dishes ?</h2>
+      return <h2 className='length'>Your Cart is Empty ! <br /> Please Add Your Favourite Dishes ? <br /> <img src="https://cdni.iconscout.com/illustration/premium/thumb/emptybag-8316260-6632280.png" alt="" /></h2>
     }
 
   return (

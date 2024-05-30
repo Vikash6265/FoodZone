@@ -10,7 +10,8 @@ const CarousalSlice = createSlice({
                 "category" : "paratha",
                 "image" : 'https://www.archanaskitchen.com/images/archanaskitchen/Indian_Breads/Easy_Aloo_Paratha_Recipe_North_Indian_Punjabi_Style-1.jpg',
                 "Rating" : {"rate" : 4.4 , "rateData" : 'BESTSELLER'  },
-                "Price" : 120
+                "Price" : 120,
+                "qty" : 1,
             },
             {
                 "id" : 2,
@@ -18,7 +19,8 @@ const CarousalSlice = createSlice({
                 "category" : "paratha",
                 "image" : 'https://www.lekhafoods.com/media/1050760/methi-paratha.jpg',
                 "Rating" : {"rate" : 4.3 , "rateData" : 'BESTSELLER'  },
-                "Price" : 100
+                "Price" : 100,
+                "qty" : 1,
             },
             {
                 "id" : 3,
@@ -26,7 +28,8 @@ const CarousalSlice = createSlice({
                 "category" : "paratha",
                 "image" : 'https://i.ytimg.com/vi/TMBMrKJewnc/maxresdefault.jpg',
                 "Rating" : {"rate" : 4.6 , "rateData" : 'BESTSELLER'  },
-                "Price" : 160
+                "Price" : 160,
+                "qty" : 1,
             },
             {
                 "id" : 4,
@@ -34,7 +37,8 @@ const CarousalSlice = createSlice({
                 "category" : "paratha",
                 "image" : 'https://www.thespruceeats.com/thmb/rAc7PkGDKqBlSmqAXHFTdSfh8bc=/2121x1414/filters:fill(auto,1)/GettyImages-618764348-5c829cb746e0fb0001cbf4b4.jpg',
                 "Rating" : {"rate" : 4.1 , "rateData" : 'BESTSELLER'  },
-                "Price" : 135
+                "Price" : 135,
+                "qty" : 1,
             },
             {
                 "id" : 5,
@@ -42,7 +46,8 @@ const CarousalSlice = createSlice({
                 "category" : "paratha",
                 "image" : 'https://i.ytimg.com/vi/3D69EMLJ4Iw/maxresdefault.jpg',
                 "Rating" : {"rate" : 3.9 , "rateData" : 'BESTSELLER'  },
-                "Price" : 100
+                "Price" : 100,
+                "qty" : 1,
             },
             {
                 "id" : 6,
@@ -50,7 +55,8 @@ const CarousalSlice = createSlice({
                 "category" : "paratha",
                 "image" : 'https://tks.ae/wp-content/uploads/2016/11/plain-paratha-scaled.jpg',
                 "Rating" : {"rate" : 5.0 , "rateData" : 'BESTSELLER'  },
-                "Price" : 190
+                "Price" : 190,
+                "qty" : 1,
             },
             {
                 "id" : 7,
@@ -58,7 +64,8 @@ const CarousalSlice = createSlice({
                 "category" : "cake",
                 "image" : 'http://cakebycourtney.com/wp-content/uploads/2018/05/IMG_6702.jpg',
                 "Rating" : {"rate" : 4.4 , "rateData" : 'BESTSELLER'  },
-                "Price" : 350
+                "Price" : 350,
+                "qty" : 1,
             },
             {
                 "id" : 8,
@@ -66,7 +73,8 @@ const CarousalSlice = createSlice({
                 "category" : "cake",
                 "image" : 'https://myincrediblerecipes.com/wp-content/uploads/2020/02/Choc-strawberry-cake-3-6-scaled.jpg',
                 "Rating" : {"rate" : 4.3 , "rateData" : 'BESTSELLER'  },
-                "Price" : 190
+                "Price" : 190,
+                "qty" : 1,
             },
             {
                 "id" : 9,
@@ -74,7 +82,8 @@ const CarousalSlice = createSlice({
                 "category" : "cake",
                 "image" : 'https://rhubarbandcod.com/wp-content/uploads/2022/02/Chocolate-Lava-Cakes-1.jpg',
                 "Rating" : {"rate" : 4.6 , "rateData" : 'BESTSELLER'  },
-                "Price" : 159
+                "Price" : 159,
+                "qty" : 1,
             },
             {
                 "id" : 10,
@@ -82,7 +91,8 @@ const CarousalSlice = createSlice({
                 "category" : "cake",
                 "image" : 'https://www.bloomsonly.com/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/m/i/mix-fruit-cake.jpg',
                 "Rating" : {"rate" : 4.1 , "rateData" : 'BESTSELLER'  },
-                "Price" : 210
+                "Price" : 210,
+                "qty" : 1,
             },
             {
                 "id" : 11,
@@ -90,7 +100,8 @@ const CarousalSlice = createSlice({
                 "category" : "cake",
                 "image" : 'https://www.eg2i.com/uploads/product_image/product_1084_1.jpg',
                 "Rating" : {"rate" : 3.9 , "rateData" : 'BESTSELLER'  },
-                "Price" : 170
+                "Price" : 170,
+                "qty" : 1,
             },
             {
                 "id" : 12,
@@ -98,7 +109,8 @@ const CarousalSlice = createSlice({
                 "category" : "cake",
                 "image" : 'https://media.bakingo.com/sq-butterscotch-cake0003butt-AA.jpg',
                 "Rating" : {"rate" : 5.0 , "rateData" : 'BESTSELLER'  },
-                "Price" : 219
+                "Price" : 219,
+                "qty" : 1,
             },
             {
                 "id" : 13,
@@ -106,7 +118,8 @@ const CarousalSlice = createSlice({
                 "category" : "idliDosa",
                 "image" : 'https://www.healthifyme.com/blog/wp-content/uploads/2018/03/idly2.jpeg',
                 "Rating" : {"rate" : 4.4 , "rateData" : 'BESTSELLER'  },
-                "Price" : 125
+                "Price" : 125,
+                "qty" : 1,
             },
             {
                 "id" : 14,
@@ -114,7 +127,8 @@ const CarousalSlice = createSlice({
                 "category" : "idliDosa",
                 "image" : 'https://i1.wp.com/vegecravings.com/wp-content/uploads/2017/03/fried-idli-recipe-step-by-step-instructions.jpg?w=2418&quality=65&strip=all&ssl=1',
                 "Rating" : {"rate" : 4.3 , "rateData" : 'BESTSELLER'  },
-                "Price" : 180
+                "Price" : 180,
+                "qty" : 1,
             },
             {
                 "id" : 15,
@@ -122,7 +136,8 @@ const CarousalSlice = createSlice({
                 "category" : "idliDosa",
                 "image" : 'https://apollosugar.com/wp-content/uploads/2018/12/Masala-Dosa.jpg',
                 "Rating" : {"rate" : 4.6 , "rateData" : 'BESTSELLER'  },
-                "Price" : 259
+                "Price" : 259,
+                "qty" : 1,
             },
             {
                 "id" : 16,
@@ -130,7 +145,8 @@ const CarousalSlice = createSlice({
                 "category" : "idliDosa",
                 "image" : 'https://3.imimg.com/data3/DQ/KC/MY-16504432/moong-dal-dosa-500x500.jpg',
                 "Rating" : {"rate" : 4.1 , "rateData" : 'BESTSELLER'  },
-                "Price" : 135
+                "Price" : 135,
+                "qty" : 1,
             },
             {
                 "id" : 17,
@@ -138,7 +154,8 @@ const CarousalSlice = createSlice({
                 "category" : "idliDosa",
                 "image" : 'https://shivani.co.nz/mountroskill/wp-content/uploads/2020/04/Plain-dosa.jpg',
                 "Rating" : {"rate" : 3.9 , "rateData" : 'BESTSELLER'  },
-                "Price" : 170
+                "Price" : 170,
+                "qty" : 1,
             },
             {
                 "id" : 18,
@@ -146,7 +163,8 @@ const CarousalSlice = createSlice({
                 "category" : "idliDosa",
                 "image" : 'https://i.ytimg.com/vi/1ZXN6xHmf9Y/maxresdefault.jpg',
                 "Rating" : {"rate" : 5.0 , "rateData" : 'BESTSELLER'  },
-                "Price" : 215
+                "Price" : 215,
+                "qty" : 1,
             }
         ],
         isLoading : false,
