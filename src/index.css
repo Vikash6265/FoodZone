@@ -613,13 +613,53 @@
     }
     .card{
         width: 100%;
-        height: 455px;
+        min-height: 455px;
     }
     .img-part{
         width: 100%;
         height: 260px;
     }
+    .text-part{
+        padding-bottom: 15px;
+    }
     .text-part span{
+        width: 70%;
+        padding-right: 20px;
+    }
+    .cart-card{
+        width: 100%;
+        min-height: 225px;
+        border-radius: 25px;
+        margin-top: 20px;
+        display: flex;
+    }
+    .img-part1{
         width: 55%;
+        height: 250px;
+    }
+    .img-part1 img{
+        width: 100%;
+        min-height: 225px;
+        border-radius: 25px 0px 0px 25px;
+    }
+    #carttext{
+        width: 45%;
+        min-height: 200px;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+    .cart-card span{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-right: 45px;
+    }
+    .length{
+        font-size: 22px;
+        line-height: 40px;
+        text-align: center;
+        padding-top: 90px;
     }
 }
